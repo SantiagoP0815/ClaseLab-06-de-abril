@@ -1,0 +1,31 @@
+#Ejercicio1
+a=int(input("ingrese el número: "))
+if a%3==0 and a%5==0:
+    print("El número cumple")
+else:
+    print("El número no cumple")
+#Ejercicio2
+b=float(input("primera nota: "))
+c=float(input("segunda nota: "))
+d=float(input("tercera nota: "))
+e=(b+c+d)/3
+if e>=7:
+    print("Promocionado",e)
+elif e>=4 and e<7:
+    print("Regular",e)
+else:
+    print("Reprobado",e)
+#Ejercicio3
+f=float(input("primera nota: "))
+g=float(input("segunda nota: "))
+h=float(input("tercera nota: "))
+i=(f+g+h)/3
+if i>=7:
+    print("Promocionado",i)
+if i>=4 and i<7:
+    print("Regular",i)
+if i<4:
+    print("Reprobado",i)
+#Ejercicio5
+j=[k*5 for k in range(1,11)]
+print(j)
